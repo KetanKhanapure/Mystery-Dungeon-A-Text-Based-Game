@@ -25,3 +25,55 @@ Navigate to the project directory:
 cd mystery-dungeon-game
 Run the game:
 python mystery_dungeon.py
+
+## Diagram
+
+ +-------------------------+
+                        |      Start Game         |
+                        +-------------------------+
+                                 |
+                                 v
+                        +-------------------------+
+                        |  Enter the Dungeon?     |
+                        +-------------------------+
+                         /          \
+                      yes            no
+                       /                \
+                      v                  v
+          +-------------------+   +------------------+
+          | Meet Mysterious   |   |   Game Over      |
+          | Guide?             |   +------------------+
+          +-------------------+   
+               /       \
+            trust       ignore
+              |            |
+              v            v
+   +----------------+  +----------------+
+   |  Glowing Map   |  | Continue Alone  |
+   +----------------+  +----------------+
+          |                 |
+          v                 v
+   +----------------+   +------------------+
+   |  First Path?   |   |  First Path?     |
+   +----------------+   +------------------+
+       /       \             /        \
+    left        right    left          right
+      |           |        |              |
+      v           v        v              v
++---------------+  +----------------+   +------------------+
+| Encounter     |  | Secret Door    |   | Encounter         |
+| Monster?      |  +----------------+   | Trap or Secret    |
++---------------+        /     \         | Door or Bribe    |
+       |                 open   ignore    +-----------------+
+       v                    |        |            |
++--------------+          +---+  +----+        +------+
+|  Fight       |          |   |  |    |        |   Game Over|
+| Monster     |          |   |  |    |        +----------+
++--------------+         +---+ |    |        |    |
+     |               \     v   v    v         v
+     |        +------------------+  +---------------+
+     |        |   Find Treasure   |  |  Cursed Chest |
+     |        |   and Win!        |  | (Game Over)   |
+     |        +------------------+  +---------------+  
+     v                |
+   Game Over      Treasure Found
