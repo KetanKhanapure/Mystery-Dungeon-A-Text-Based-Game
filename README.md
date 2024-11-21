@@ -48,23 +48,27 @@ python mystery_dungeon.py
                /       \
             trust       ignore
               |            |
+              
               v            v
    +----------------+  +----------------+
    |  Glowing Map   |  | Continue Alone  |
    +----------------+  +----------------+
           |                 |
+          
           v                 v
    +----------------+   +------------------+
    |  First Path?   |   |  First Path?     |
    +----------------+   +------------------+
        /       \             /        \
+       
     left        right    left          right
       |           |        |              |
+      
       v           v        v              v
 +---------------+  +----------------+   +------------------+
 | Encounter     |  | Secret Door    |   | Encounter         |
 | Monster?      |  +----------------+   | Trap or Secret    |
-+---------------+        /     \         | Door or Bribe    |
++---------------+        /     \        | Door or Bribe    |
        |                 open   ignore    +-----------------+
        v                    |        |            |
 +--------------+          +---+  +----+        +------+
