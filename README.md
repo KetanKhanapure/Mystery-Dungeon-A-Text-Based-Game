@@ -63,10 +63,10 @@ python grademanagement.py
          +-------------------------+     +------------------+
          | Meet Mysterious Guide?   |     |   Game Over      |
          +-------------------------+     +------------------+
-             /          \   
-          trust        ignore
-            |             |
-            v             v
+             /                \   
+          trust             ignore
+            |                  |
+            v                  v
    +-------------------+   +----------------------+
    |  Glowing Map      |   | Continue Alone        |
    +-------------------+   +----------------------+
@@ -82,9 +82,9 @@ python grademanagement.py
 +-------------------+   +---------------------+   +-----------------------+
 | Encounter Monster |   |   Secret Door       |   | Encounter Trap/Secret  |
 | (Fight/Bribe/Flee)|   +---------------------+   | Door or Bribe Monster  |
-+-------------------+         /     \             +-----------------------+
-        |                 open    ignore
-        v                     |        |
++-------------------+         /          \        +-----------------------+
+        |                 open         ignore
+        v                    |             |
 +-------------------+    +-----------+    +-------------------+
 |   Fight Monster   |    |   Rare    |    |    Game Over      |
 |     (Win)         |    |   Gems    |    +-------------------+
