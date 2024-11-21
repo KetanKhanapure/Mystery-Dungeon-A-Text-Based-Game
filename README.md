@@ -1,6 +1,6 @@
 # Mystery-Dungeon-A-Text-Based-Game
 Mystery Dungeon Game
-Description:-
+#Description:-
 Mystery Dungeon is a text-based adventure game written in Python. Players explore a dungeon filled with traps, monsters, and secrets in search of a hidden treasure. Each decision shapes the player's journey and outcome, making it an engaging and interactive experience.
 
 Objectives:-
